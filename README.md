@@ -1,7 +1,9 @@
 # Device Sync
 
 Two-way file sync between your Linux devices using rsync over Tailscale SSH.
-The AI Server (N150) acts as the hub; other devices sync with it.
+The defaults in these files assume the "aiserver" acts as the hub; and other devices sync with it.
+Edit the config file to suite device names.
+Install on all devices that you want to sync to the hub device.
 
 ## How It Works
 
